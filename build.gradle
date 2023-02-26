@@ -61,5 +61,5 @@ tasks.withType(SpotBugsTask).configureEach {
 
 jib {
 	from.image = 'eclipse-temurin:17-jre-focal'
-	to.image = '361368780838.dkr.ecr.ap-south-1.amazonaws.com/mapetit/jobs'
+	to.image = 'mapetit/jobs'
 }
